@@ -2,7 +2,7 @@ const ligarButton = document.getElementById('ligarButton');
 const desligarButton = document.getElementById('desligarButton');
 const restartButton = document.getElementById('restartButton');
 const producaoDisplay = document.getElementById('producaoDisplay');
-const producaoMsg = document.getElementById('msg');
+const producaoMsg = document.getElementById('producaoMsg');
 
 var urlPost = 'https://leanwebsensor-pa.onrender.com/chaves'
 var urlGet = 'https://leanwebsensor-pa.onrender.com/producao'
