@@ -18,8 +18,6 @@ function receiverRequest(){
     .then(json => {
         producaoDisplay.textContent = json.sensor;
         console.log(json.sensor);
-        
-    .then(json => {
         producaoMsg.textContent = json.msg;
         console.log(json.msg);
     })
